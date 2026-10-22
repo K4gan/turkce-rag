@@ -1,0 +1,66 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "turkce-rag"
+version = "0.1.0"
+description = "Türkçe öncelikli, kaynak gösteren hibrit RAG motoru (BM25 + yoğun vektör + RRF)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Oğuz Kağan Kahraman" }]
+requires-python = ">=3.10"
+keywords = ["rag", "turkish", "nlp", "retrieval", "bm25", "embeddings", "llm"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: Turkish",
+  "Topic :: Text Processing :: Linguistic",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pypdf>=4.0",
+  "httpx>=0.27",
+  "beautifulsoup4>=4.12",
+]
+
+[project.optional-dependencies]
+dense = ["sentence-transformers>=3.0"]
+api = ["fastapi>=0.110", "uvicorn>=0.29"]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.6",
+  "mypy>=1.10",
+  "fastapi>=0.110",
+  "reportlab>=4.0",
+]
+
+[project.scripts]
+turkce-rag = "turkce_rag.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/K4gan/turkce-rag"
+Issues = "https://github.com/K4gan/turkce-rag/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/turkce_rag"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # Türkçe metinde ı/İ gibi "karışabilir" karakterler bilinçli
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: gerçek embedding modelini indirir (CI'da çalışmaz)"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+warn_unused_ignores = true

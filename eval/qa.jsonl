@@ -1,0 +1,35 @@
+{"id": "q01", "question": "Türk kahvesi Osmanlı'ya hangi yoldan geldi?", "doc_id": "turk-kahvesi", "evidence": "Yemen üzerinden"}
+{"id": "q02", "question": "İstanbul'daki ilk kahvehaneler nerede açıldı?", "doc_id": "turk-kahvesi", "evidence": "Tahtakale"}
+{"id": "q03", "question": "Türk kahvesi kültürü UNESCO listesine hangi yıl girdi?", "doc_id": "turk-kahvesi", "evidence": "2013 yılında"}
+{"id": "q04", "question": "turk kahvesine seker ne zaman eklenir", "doc_id": "turk-kahvesi", "evidence": "şeker de en başta"}
+{"id": "q05", "question": "Kahvenin yanında neden su veriliyor?", "doc_id": "turk-kahvesi", "evidence": "ağzı temizleyip"}
+{"id": "q06", "question": "Peribacalarının tepesindeki sert kaya ne işe yarar?", "doc_id": "kapadokya", "evidence": "aşınmaya karşı korur"}
+{"id": "q07", "question": "Kapadokya'daki tüf hangi volkanlardan kaynaklanıyor?", "doc_id": "kapadokya", "evidence": "Erciyes, Hasandağı"}
+{"id": "q08", "question": "Derinkuyu yeraltı şehrinin girişleri nasıl korunurdu?", "doc_id": "kapadokya", "evidence": "taş kapılarla"}
+{"id": "q09", "question": "Göreme ne zaman Dünya Mirası oldu?", "doc_id": "kapadokya", "evidence": "1985 yılında"}
+{"id": "q10", "question": "Bitkiler neden yeşil görünür?", "doc_id": "fotosentez", "evidence": "yeşil ışığı ise"}
+{"id": "q11", "question": "Fotosentezde açığa çıkan oksijen nereden gelir?", "doc_id": "fotosentez", "evidence": "suyun parçalanmasından"}
+{"id": "q12", "question": "Karbon tutma işlemini hangi enzim yapar?", "doc_id": "fotosentez", "evidence": "RuBisCO adlı enzim"}
+{"id": "q13", "question": "CAM bitkileri karbondioksiti ne zaman alır?", "doc_id": "fotosentez", "evidence": "gece alır"}
+{"id": "q14", "question": "KVKK Resmi Gazete'de ne zaman yayımlandı?", "doc_id": "kvkk-ozet", "evidence": "7 Nisan 2016"}
+{"id": "q15", "question": "veri sorumlusu kime denir", "doc_id": "kvkk-ozet", "evidence": "işleme amaçlarını ve vasıtalarını"}
+{"id": "q16", "question": "Sağlık verileri hangi veri kategorisine girer?", "doc_id": "kvkk-ozet", "evidence": "özel nitelikli kişisel veridir"}
+{"id": "q17", "question": "Başvuruma veri sorumlusu kaç gün içinde cevap vermek zorunda?", "doc_id": "kvkk-ozet", "evidence": "otuz gün"}
+{"id": "q18", "question": "Veri ihlalini Kurula bildirme süresi nedir?", "doc_id": "kvkk-ozet", "evidence": "72 saat"}
+{"id": "q19", "question": "Deprem çantasına neler konmalı?", "doc_id": "deprem-hazirlik", "evidence": "deprem çantası bulunmalıdır"}
+{"id": "q20", "question": "Sarsıntı sırasında kendimi nasıl korumalıyım?", "doc_id": "deprem-hazirlik", "evidence": "Çök, Kapan, Tutun"}
+{"id": "q21", "question": "enkaz altinda kalan biri ne yapmali", "doc_id": "deprem-hazirlik", "evidence": "düdük çalmalı"}
+{"id": "q22", "question": "Mavi Liman'da haftada kaç gün evden çalışılabilir?", "doc_id": "mavi-liman-el-kitabi", "evidence": "en fazla üç gün"}
+{"id": "q23", "question": "İzin talebini kaç gün önceden yapmam gerekiyor?", "doc_id": "mavi-liman-el-kitabi", "evidence": "en az beş iş günü"}
+{"id": "q24", "question": "Yıllık eğitim bütçesi ne kadar?", "doc_id": "mavi-liman-el-kitabi", "evidence": "12.000 TL"}
+{"id": "q25", "question": "Çekirdek çalışma saatleri hangi saatler?", "doc_id": "mavi-liman-el-kitabi", "evidence": "10.00 ile 16.00"}
+{"id": "q26", "question": "Türkiye'nin en yüksek dağı hangisidir?", "doc_id": "anadolu-volkanlari", "evidence": "5137 metre"}
+{"id": "q27", "question": "Beş yıllık kıdemi olan bir işçinin yasal yıllık izni en az kaç gündür?", "doc_id": "is-kanunu-yillik-izin", "evidence": "on dört günden"}
+{"id": "q28", "question": "Hücrelerde enerji üretiminin büyük kısmı nerede gerçekleşir?", "doc_id": "hucresel-solunum", "evidence": "elektron taşıma sisteminde"}
+{"id": "q29", "question": "Depremde ilk hissedilen dalgalar hangileridir?", "doc_id": "deprem-bilimi", "evidence": "P dalgalarıdır"}
+{"id": "q30", "question": "Pomodoro tekniğinde kaç dakika çalışılır?", "doc_id": "uzaktan-calisma-ipuclari", "evidence": "25 dakikalık"}
+{"id": "u01", "question": "Türkiye'nin en uzun nehri hangisidir?", "doc_id": null, "evidence": null}
+{"id": "u02", "question": "Kuantum bilgisayarlar nasıl çalışır?", "doc_id": null, "evidence": null}
+{"id": "u03", "question": "Mavi Liman'da maaşlar ayın kaçında yatırılır?", "doc_id": null, "evidence": null}
+{"id": "u04", "question": "Espresso nasıl hazırlanır?", "doc_id": null, "evidence": null}
+{"id": "u05", "question": "Ankara'nın nüfusu kaçtır?", "doc_id": null, "evidence": null}
